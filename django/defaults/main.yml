@@ -1,0 +1,14 @@
+---
+# defaults file for django
+pg_fqdn: "172.17.0.1"
+pg_port: "5432"
+pg_db_user: "django"
+pg_db_user_password: "test123"
+pg_db_name: "django_test"
+django_app_root: /srv/app/tst
+django_app_static: /srv/app/tst/static/polls
+django_app_templates: /srv/app/tst/templates/polls
+pg_version: "14"
+container_name : "sf_web_tst"
+container_port: "8001"
+is_local: true

@@ -1,0 +1,4 @@
+$rolereq = @(
+"docker",
+"postgresql"
+)
