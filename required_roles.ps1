@@ -1,4 +1,0 @@
-$rolereq = @(
-"docker",
-"postgresql"
-)

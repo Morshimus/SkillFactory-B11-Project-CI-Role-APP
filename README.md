@@ -1,7 +1,7 @@
-Role Name
+Django
 =========
 
-A brief description of the role goes here.
+Role for installing software Skillfactory
 
 Requirements
 ------------

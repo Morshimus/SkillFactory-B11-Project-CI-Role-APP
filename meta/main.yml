@@ -48,5 +48,5 @@ galaxy_info:
     #       Maximum 20 tags per role.
 
 dependencies: 
-  - src: git+https://github.com/Morshimus/-SkillFactory-B11-Project-CI-Role-INFRA
+  - src: git+https://github.com/Morshimus/SkillFactory-B11-Project-CI-Role-INFRA
     name: Infrastructure
