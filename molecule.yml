@@ -8,8 +8,6 @@ platforms:
     image: morsh92/ubuntu-22-04-with-py3:latest
     privileged: true
     pre_build_image: true
-    volumes:
-     - /sys/fs/cgroup:/sys/fs/cgroup:rw
 provisioner:
   name: ansible
 verifier:
