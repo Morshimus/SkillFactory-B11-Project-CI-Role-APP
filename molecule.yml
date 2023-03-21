@@ -8,7 +8,7 @@ platforms:
     image: morsh92/ubuntu-20-04-with-py3:dind
     privileged: true
     pre_build_image: true
-    command: /bin/bash
+    command: bash
 provisioner:
   name: ansible
 verifier:
