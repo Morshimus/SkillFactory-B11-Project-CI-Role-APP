@@ -11,7 +11,7 @@ Requirements
 Role Variables
 --------------
 
-**pg_fqdn**  - *fully qulified domain name or ip address of pg instance| typr string*<br>
+**pg_fqdn**  - *fully qulified domain name or ip address of pg instance| type string*<br>
 </br>
 
 **pg_port** - *port of pg instance | type insteger*<br>
@@ -20,7 +20,7 @@ Role Variables
 **pg_db_user** - *pg db user| type string*<br>
 </br>
 
-**pg_db_user_passwor - *pg db user's password| type sensetive-string*<br>
+**pg_db_user_passwor** - *pg db user's password| type sensetive-string*<br>
 </br>
 
 **pg_db_name** - *pg db name| type string*<br>
