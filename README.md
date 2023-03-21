@@ -11,40 +11,40 @@ Requirements
 Role Variables
 --------------
 
-**pg_fqdn**<br>  - *fully qulified domain name or ip address of pg instance| typr string*
+**pg_fqdn**  - *fully qulified domain name or ip address of pg instance| typr string*<br>
 </br>
 
-**pg_port**<br> - *port of pg instance | type insteger*
+**pg_port** - *port of pg instance | type insteger*<br>
 </br>
 
-**pg_db_user**<br> - *pg db user| type string*
+**pg_db_user** - *pg db user| type string*<br>
 </br>
 
-**pg_db_user_password**<br> - *pg db user's password| type sensetive-string*
+**pg_db_user_passwor - *pg db user's password| type sensetive-string*<br>
 </br>
 
-**pg_db_name** - *pg db name| type string*
+**pg_db_name** - *pg db name| type string*<br>
 </br>
 
-**django_app_root**<br>  - *django app root folder| type string*
+**django_app_root**  - *django app root folder| type string*<br>
 </br>
 
-**django_app_static**<br> - *django app static folder| type string*
+**django_app_static** - *django app static folder| type string*<br>
 </br>
 
-**django_app_templates** <br> - *djangi app templates folder| type string*
+**django_app_templates**  - *djangi app templates folder| type string*<br>
 </br>
 
-**pg_version**<br> - *pg instance version| type string*
+**pg_version** - *pg instance version| type string*<br>
 </br>
 
-**container_name**<br> - *docker container name| type string*
+**container_name** - *docker container name| type string*<br>
 </br>
 
-**container_port**<br> - *docker container port for expose| type integer*
+**container_port** - *docker container port for expose| type integer*<br>
 </br>
 
-**is_local**<br> - *type of installation, is pg instant locates locally ot remote?| typr boolean*
+**is_local** - *type of installation, is pg instant locates locally ot remote?| typr boolean*<br>
 </br>
 
 Dependencies
