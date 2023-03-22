@@ -143,7 +143,7 @@
          image: morsh92/skillfactory-web-pg:latest
          state: started
          restart: yes
-         timeout: 360s
+         timeout: 360
          ports:
           - "{{ container_port }}:8000"
          volumes:
