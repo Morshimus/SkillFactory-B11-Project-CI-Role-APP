@@ -5,10 +5,9 @@ driver:
   name: docker
 platforms:
   - name: Ubuntu-22-04
-    image: morsh92/ubuntu-20-04-with-py3:dind
+    image: morsh92/ubuntu-22-04-with-py3:latest
     privileged: true
     pre_build_image: true
-    command: bash
 provisioner:
   name: ansible
 verifier:
