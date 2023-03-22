@@ -8,8 +8,6 @@ platforms:
     image: morsh92/ubuntu-22-04-with-py3:latest
     privileged: true
     pre_build_image: true
-    env:
-     DOCKER_CLIENT_TIMEOUT: "360"
 provisioner:
   name: ansible
 verifier:
