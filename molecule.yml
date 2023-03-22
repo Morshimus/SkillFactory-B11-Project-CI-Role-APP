@@ -8,8 +8,6 @@ platforms:
     image: morsh92/ubuntu-22-04-with-py3:latest
     privileged: true
     pre_build_image: true
-    published_ports:
-     - 127.0.0.1:8001:8000
 provisioner:
   name: ansible
 verifier:
